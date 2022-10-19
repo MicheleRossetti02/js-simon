@@ -13,7 +13,7 @@ for (let i = 0; i < num_totali; i++) {
 }
 
     let right = 0;
-
+    let wrong= 0;
 
 
   
@@ -33,12 +33,18 @@ for (let i = 0; i < num_totali; i++) {
         
         if(num.includes(num_scelto)){
             console.log('hai indovinato');
+            right++
             }    else{
             console.log('Hai sbagliato');
+            wrong++
             }
+
+            
         
 
         }
+
+        console.log('Il tuo punteggio è: ' + right + ' risposte giuste '+ wrong+ 'risposte errate');
         
     }
 
