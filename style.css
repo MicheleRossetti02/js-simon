@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.casella_num{
+width: 100%/3;
+font-size: 2rem;
+color: red;
+margin: 2rem;
+}
