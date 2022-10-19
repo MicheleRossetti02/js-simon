@@ -7,11 +7,14 @@
 .container{
     display: flex;
     justify-content: space-around;
-
+    font-size: 2rem;
+    color: red;
+    margin-top: 300px;
 }
 .casella_num{
 width: 100%/3;
-font-size: 2rem;
-color: red;
-margin: 2rem;
+border: 1px solid red;
+padding: 2rem;
+border-radius: 50%;
+
 }

@@ -12,21 +12,31 @@ for (let i = 0; i < num_totali; i++) {
 
 }
 
+    let right = 0;
+
 
 
   
-  setTimeout (end_time,30000)
-    
+    setTimeout (end_time,30000)
+    setTimeout (gameover,29500)
+
+    function gameover() {
+        container.innerHTML = 'TEMPO SCADUTO'
+
+    }
+
     function end_time() {
 
+
         for (let i = 0; i < num_totali; i++) {
-            container.innerHTML('TEMPO SCADUTO')
         const num_scelto =number(prompt('DIGITA I NUMERI ELENCATI PRECEDENTEMENTE UNO ALLA VOLTA'))
-            if(num_scelto === num ){
-                console.log('hai indovinato');
+        
+        if(num.includes(num_scelto)){
+            console.log('hai indovinato');
             }    else{
-                console.log('Hai sbagliato');
+            console.log('Hai sbagliato');
             }
+        
 
         }
         
